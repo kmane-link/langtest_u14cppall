@@ -3,6 +3,9 @@ language: c
 compiler:
   - gcc
   - clang
+branches:
+  except:
+    - test1
 build:
   pre_ci:
     - echo 'true'
