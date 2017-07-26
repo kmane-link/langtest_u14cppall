@@ -5,7 +5,7 @@ compiler:
   - clang
 branches:
   except:
-    - test1
+    - master
 build:
   pre_ci:
     - echo 'true'
